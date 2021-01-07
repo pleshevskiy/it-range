@@ -1,6 +1,6 @@
 # it-range
 
-Simple and minimalistic range iterator object
+Simple and minimalistic range iterator object.
 
 
 ## Installation
@@ -29,6 +29,13 @@ console.log([...range(0, 10, 2)])
 Array.from(range(0, 10)).forEach(num => cosole.log(num));
 ```
 
+### Supports Deno
+
+```typescript
+import { range } from 'https://raw.githubusercontent.com/pleshevskiy/it-range/main/mod.ts';
+
+console.log([...range(10)]);
+```
 
 ## References
 
