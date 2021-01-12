@@ -32,7 +32,9 @@ Array.from(range(0, 10)).forEach(num => cosole.log(num));
 ### Supports Deno
 
 ```typescript
-import { range } from 'https://raw.githubusercontent.com/pleshevskiy/it-range/main/mod.ts';
+import { range } from 'https://deno.land/x/it_range@v1.0.2/mod.ts'
+// or 
+// import { range } from 'https://raw.githubusercontent.com/pleshevskiy/it-range/main/mod.ts';
 
 console.log([...range(10)]);
 ```
