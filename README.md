@@ -1,5 +1,9 @@
 # it-range
 
+[![ci](https://github.com/pleshevskiy/it-range/actions/workflows/ci.yml/badge.svg)](https://github.com/pleshevskiy/it-range/actions/workflows/ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/pleshevskiy/it-range/badge.svg)](https://coveralls.io/github/pleshevskiy/it-range)
+
+
 Simple and minimalistic range iterator object.
 
 
@@ -32,7 +36,7 @@ Array.from(range(0, 10)).forEach(num => console.log(num));
 ### Supports Deno
 
 ```js
-import { range } from 'https://deno.land/x/it_range@v1.0.2/range.mjs'
+import { range } from 'https://deno.land/x/it_range@v1.0.3/range.mjs'
 // or 
 // import { range } from 'https://raw.githubusercontent.com/pleshevskiy/it-range/main/range.mjs';
 
