@@ -15,7 +15,7 @@ npm install -s it-range
 The lib provides range function that returns iterator object.
 It's mean that you can use it in `for..of` loop
 
-```typescript
+```js
 for (const num of range(10)) {
     console.log(num);
 }
@@ -23,18 +23,18 @@ for (const num of range(10)) {
 
 also you can transform into array.
 
-```typescript
+```js
 console.log([...range(0, 10, 2)])
 
-Array.from(range(0, 10)).forEach(num => cosole.log(num));
+Array.from(range(0, 10)).forEach(num => console.log(num));
 ```
 
 ### Supports Deno
 
-```typescript
-import { range } from 'https://deno.land/x/it_range@v1.0.2/mod.ts'
+```js
+import { range } from 'https://deno.land/x/it_range@v1.0.2/range.mjs'
 // or 
-// import { range } from 'https://raw.githubusercontent.com/pleshevskiy/it-range/main/mod.ts';
+// import { range } from 'https://raw.githubusercontent.com/pleshevskiy/it-range/main/range.mjs';
 
 console.log([...range(10)]);
 ```
